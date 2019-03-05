@@ -1,0 +1,627 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+    font-family: 'open sans';
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 80%;
+    /*  background-image: url(telemedicina3.jpg); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .textos {
+    margin-top: 150px;
+    margin-right: 10px;
+    color: #000;
+    float: left;
+    height:300px;
+    position:relative;
+    width:400px;
+}
+
+header .titulo {
+    font-size: 32px;
+    color: #0A5472;
+}
+
+header .subtitulo {
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    color: #018087;
+}
+
+.menu {
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+
+#button_menu{
+    padding: 0;
+}
+#button_menu li {
+ display: inline;
+ }
+
+ #button_menu li a {
+ font-weight: 900;
+ font-family: Arial;
+ font-size: 20px;
+ text-decoration: none;
+ float: left;
+ padding: 35px;
+ background-color: transparent;
+ color: #000;
+ border: 2px;
+ }
+
+header .boton {
+    display: inline-block;
+    padding: 8px;
+    width: 180px;
+    font-weight: 700;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 10vh 0vw 0vh 100vw;
+    border-style: solid;
+    border-color: transparent #EDFDEF #EDFDEF #EDFDEF;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 10vh 0vw 0vh 100vw;
+    border-style: solid;
+    border-color:  #EDFDEF transparent transparent transparent;
+}
+
+.sesgoarriba1 {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 10vh 0vw 0vh 100vw;
+    border-style: solid;
+    border-color:  #fff  transparent transparent transparent;
+}
+
+.sesgoabajo1 {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 10vh 0vw 0vh 100vw;
+    border-style: solid;
+    border-color: transparent #F5B041 #F5B041 #F5B041;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+    text-align: center;
+}
+.contenedor-miembros {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+    text-align: center;
+}
+
+/* Main */
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+.acerca-de{
+    background: #EDFDEF;
+}
+
+.acerca-de .titulo{
+    font-size: 35px;
+    color: #0A5472;
+    text-align: center;
+}
+
+.acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 200px;
+    font-weight: 900;
+    border: 3px solid rgba(24, 16, 16, .7);
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 40px;
+    float: right;
+
+}
+
+/*    --------Galeria ----------*/
+.pasos {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background: #fff;
+}
+
+.pasos .titulo{
+  padding: 40px;
+  font-size: 35px;
+  color: #0A5472;
+  text-align: center;
+}
+
+.beneficios{
+  z-index: 60px;
+  margin: 20px 0;
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+  padding: 20px;
+  box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin:20px auto;
+  font-size: 20px;
+}
+
+.servicios{
+  width: 100%;
+  height: 50%;
+  position: relative;
+  background: #EDFDEF;
+}
+
+.servicios .titulo{
+  font-size: 35px;
+  color: #0A5472;
+  text-align: center;
+}
+
+.otros-servicios{
+  width: 250px;
+  height:400px;
+}
+
+.otros-servicios h2{
+  font-size: 23px;
+  color: #F39C12;
+}
+
+.otros-servicios p{
+  font-size: 18px;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.miembros{
+  background: #fff;
+}
+
+.miembros  .sobre-nosotros{
+  font-size: 35px;
+  color: #0A5472;
+  text-align: center;
+}
+.miembros .slogan{
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+
+.nombre{
+  width: 350px;
+  height: 500px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nombre h7{
+  padding: 6px;
+  font-size: 18px;
+  color: #2471A3;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+.nombre h8{
+  padding: 10px;
+  font-size: 25px;
+  color: #0E6655;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
+
+.cards {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    margin: auto;
+
+}
+
+.card1 {
+    z-index: 60px;
+    margin: 20px 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:20px auto;
+  }
+
+  .card1 p{
+    font-size: 20px;
+    
+  }
+.card2{
+    z-index: 60px;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:20px auto;
+  }
+
+.card3{
+    z-index: 60px;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:20px auto;
+  }
+
+.card4{
+
+    margin: 20px 0;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+}
+
+.card5{
+    padding: 20px;
+    z-index: 60px;
+    margin: 20px 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:20px auto;
+
+  }
+
+.nombre .imagen_redonda{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid rgba(24, 16, 16, .7);
+
+}
+
+
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 10vh 0vw 0vh 100vw;
+    border-style: solid;
+    border-color: transparent #2c3e50 #2c3e50 #2c3e50;
+}
+
+.titulo-patrocinadores,
+.subtitulo-patrocinadores {
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-patrocinadores {
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.formulario{
+  width: 100%;
+  height: 60%;
+  padding: inherit;
+  position: relative;
+  background-image: url(telemedicina.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}
+ .titulo-formulario{
+   padding: 20px;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+ .subtitulo-formulario{
+   padding: 10px;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+
+.textos{
+  position: relative;
+
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    font-size: 18px;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+}
+.enviar{
+  display: inline-block;
+  float: right;
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background: #2c3e50;
+    height: auto;
+}
+
+.datos{
+
+  background: transparent;
+}
+.datos h1{
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+    header .titulo {
+        font-size: 75px;
+    }
+    .none {
+        display: none
+    }
+    .imagenes {
+        flex-grow: 1;
+    }
+    .card {
+        width: 90%;
+    }
+    .fondo {
+        height: auto;
+    }
+    .especial {
+        display: none;
+    }
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+    header .titulo {
+        font-size: 65px;
+    }
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+    .slogan {
+        font-size: 20px;
+    }
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
